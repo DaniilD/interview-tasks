@@ -1,10 +1,12 @@
 package main
 
-import "interview-tasks/exp"
+import (
+	"fmt"
+	"interview-tasks/leetcode"
+)
 
 func main() {
-	/*n := leetcode.LengthOfLastWord("hello world")
-	fmt.Println(n)*/
+	n := leetcode.IsSubsequence("abc", "ahgdcbc")
+	fmt.Println(n)
 
-	exp.ExpSlice()
 }
