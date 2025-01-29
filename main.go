@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	n := leetcode.IsSubsequence("abc", "ahgdcbc")
+	n := leetcode.IsHappy(2)
 	fmt.Println(n)
 
 }
