@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	n := leetcode.IsHappy(2)
+	n := leetcode.SummaryRanges([]int{0, 9})
 	fmt.Println(n)
 
 }
